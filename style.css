@@ -12,7 +12,7 @@
     text-align: right;
 }
 
-.header .list-item__button-img {
+.header .header__img {
     width: 100%;
 }
 
@@ -77,8 +77,8 @@ input,
 }
 
 /* Heading */
-h3,
-label[for="new-task"] {
+.title,
+.add-task__label {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -108,12 +108,12 @@ label[for="new-task"] {
 }
 
 /* New Task */
-label[for="new-task"] {
+.add-task__label {
     display: block;
     margin: 0 0 20px;
 }
 
-input#new-task {
+.add-task__input {
     width: 318px;
 }
 
